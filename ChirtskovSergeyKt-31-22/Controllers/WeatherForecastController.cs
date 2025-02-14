@@ -18,7 +18,7 @@ namespace ChirtskovSergeyKt_31_22.Controllers
             _logger = logger;
         }
 
-        /*[HttpGet(Name = "GetWeatherForecast")]
+        [HttpGet(Name = "GetWeatherForecast")]
         public IEnumerable<WeatherForecast> Get()
         {
             _logger.LogError("Method was called");
@@ -30,9 +30,9 @@ namespace ChirtskovSergeyKt_31_22.Controllers
                 Summary = Summaries[Random.Shared.Next(Summaries.Length)]
             })
             .ToArray();
-        }*/
+        }
 
-        [HttpGet(Name = "AddNewSummary")]
+        [HttpPost(Name = "AddNewSummary")]
         public string[] AddNewSummary(string newSummary)
         {
             _logger.LogError("New method was called");
