@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("ChirtskovSergeyKt-31-22")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+d0f72eab844c2caddcde5079b638b68b9b2183bc")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+924a8511554b514fedd5a878519f12a2f08dac6f")]
 [assembly: System.Reflection.AssemblyProductAttribute("ChirtskovSergeyKt-31-22")]
 [assembly: System.Reflection.AssemblyTitleAttribute("ChirtskovSergeyKt-31-22")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
