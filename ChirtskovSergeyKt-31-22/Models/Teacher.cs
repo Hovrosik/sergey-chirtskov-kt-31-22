@@ -6,9 +6,12 @@
 		public string FirstName { get; set; }
 		public string LastName { get; set; }
 		public string MiddleName { get; set; }
+		public int DegreeId { get; set; }
+		public Degree Degree { get; set; }
+		public int JobTitleId { get; set; }
+		public JobTitle JobTitle { get; set; }
 		public int DepartmentId { get; set; }
 		public Department Department { get; set; }
-		public string Degree { get; set; }
-		public string JobTitle { get; set; }
+		public int LoadHours { get; set; }
 	}
 }

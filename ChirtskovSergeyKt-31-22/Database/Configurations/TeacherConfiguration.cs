@@ -46,12 +46,58 @@ namespace ChirtskovSergeyKt_31_22.Database.Configurations
                 .HasColumnType(ColumnType.String).HasMaxLength(100)
                 .HasComment("Отчество преподавателя");
 
-            builder.Property(p => p.DepartmentId)
+			builder.Property(p => p.DegreeId)
+			   .IsRequired()
+			   .HasColumnName("c_teacher_degreeid")
+			   .HasColumnType(ColumnType.Int);
+
+			builder.ToTable(TableName)
+				.HasOne(p => p.Degree)
+				.WithMany()
+				.HasForeignKey(p => p.DegreeId)
+				.HasConstraintName("fk_f_degree_id")
+				.OnDelete(DeleteBehavior.Cascade);
+
+			builder.ToTable(TableName)
+				.HasIndex(p => p.DegreeId, $"idx_{TableName}_fk_f_degree_id");
+
+			builder.Property(p => p.JobTitleId)
+			   .IsRequired()
+			   .HasColumnName("c_teacher_jobtitleid")
+			   .HasColumnType(ColumnType.Int);
+
+			builder.ToTable(TableName)
+				.HasOne(p => p.JobTitle)
+				.WithMany()
+				.HasForeignKey(p => p.JobTitleId)
+				.HasConstraintName("fk_f_jobtitle_id")
+				.OnDelete(DeleteBehavior.Cascade);
+
+			builder.ToTable(TableName)
+				.HasIndex(p => p.JobTitleId, $"idx_{TableName}_fk_f_jobtitle_id");
+
+			builder.Property(p => p.DepartmentId)
                 .IsRequired()
                 .HasColumnName("c_teacher_departmentid")
                 .HasColumnType(ColumnType.Int);
 
-            builder.Property(p => p.)
-        }
+            builder.ToTable(TableName)
+                .HasOne(p => p.Department)
+                .WithMany()
+                .HasForeignKey(p => p.DepartmentId)
+                .HasConstraintName("fk_f_department_id")
+                .OnDelete(DeleteBehavior.Cascade);
+
+            builder.ToTable(TableName)
+                .HasIndex(p => p.DepartmentId, $"idx_{TableName}_fk_f_department_id");
+
+            // Добавим явную автоподгрузку связанной сущности
+            builder.Navigation(p => p.Department)
+                .AutoInclude();
+            builder.Navigation(p => p.Degree)
+                .AutoInclude();
+			builder.Navigation(p => p.JobTitle)
+				.AutoInclude();
+		}
     }
 }

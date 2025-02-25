@@ -4,5 +4,7 @@
 	{
 		public int DepartmentId { get; set; }
 		public string DepartmentName { get; set; }
+		public int HeadTeacherId { get; set; }
+		public Teacher HeadTeacher { get; set; }
 	}
 }
