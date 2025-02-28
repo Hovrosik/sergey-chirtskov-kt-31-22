@@ -32,24 +32,6 @@ namespace ChirtskovSergeyKt_31_22.Database.Configurations
 				.HasColumnName("c_department_name")
 				.HasColumnType(ColumnType.String).HasMaxLength(100)
 				.HasComment("Наименование кафедры");
-
-			builder.Property(p => p.HeadTeacherId)
-				.IsRequired()
-				.HasColumnName("c_teacher_headteacherid")
-				.HasColumnType(ColumnType.Int);
-
-			builder.ToTable(TableName)
-				.HasOne(p => p.HeadTeacher)
-				.WithMany()
-				.HasForeignKey(p => p.HeadTeacherId)
-				.HasConstraintName("fk_f_headteacher_id")
-				.OnDelete(DeleteBehavior.Cascade);
-
-			builder.ToTable(TableName)
-				.HasIndex(p => p.HeadTeacherId, $"idx_{TableName}_fk_f_headteacher_id");
-
-			builder.Navigation(p => p.HeadTeacher)
-				.AutoInclude();
 		}
 	}
 }

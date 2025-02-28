@@ -1,5 +1,22 @@
 [
   {
+    "ContainingType": "ChirtskovSergeyKt_31_22.Controllers.TeacherController",
+    "Method": "GetTeachersAsync",
+    "RelativePath": "Teacher",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "filter",
+        "Type": "ChirtskovSergeyKt_31_22.Filters.TeacherFilters.TeacherFilter",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [],
+    "EndpointName": "GetTeacher"
+  },
+  {
     "ContainingType": "ChirtskovSergeyKt_31_22.Controllers.WeatherForecastController",
     "Method": "Get",
     "RelativePath": "WeatherForecast",

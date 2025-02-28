@@ -61,16 +61,10 @@ namespace ChirtskovSergeyKt_31_22.Migrations
                         .HasColumnName("c_department_name")
                         .HasComment("Наименование кафедры");
 
-                    b.Property<int>("HeadTeacherId")
-                        .HasColumnType("int4")
-                        .HasColumnName("c_teacher_headteacherid");
-
                     b.HasKey("DepartmentId")
                         .HasName("pk_cd_department_department_id");
 
-                    b.HasIndex(new[] { "HeadTeacherId" }, "idx_cd_department_fk_f_headteacher_id");
-
-                    b.ToTable("cd_department", (string)null);
+                    b.ToTable("Department");
                 });
 
             modelBuilder.Entity("ChirtskovSergeyKt_31_22.Models.Disciplines", b =>
@@ -175,18 +169,6 @@ namespace ChirtskovSergeyKt_31_22.Migrations
                     b.HasIndex(new[] { "JobTitleId" }, "idx_cd_teacher_fk_f_jobtitle_id");
 
                     b.ToTable("cd_teacher", (string)null);
-                });
-
-            modelBuilder.Entity("ChirtskovSergeyKt_31_22.Models.Department", b =>
-                {
-                    b.HasOne("ChirtskovSergeyKt_31_22.Models.Teacher", "HeadTeacher")
-                        .WithMany()
-                        .HasForeignKey("HeadTeacherId")
-                        .OnDelete(DeleteBehavior.Cascade)
-                        .IsRequired()
-                        .HasConstraintName("fk_f_headteacher_id");
-
-                    b.Navigation("HeadTeacher");
                 });
 
             modelBuilder.Entity("ChirtskovSergeyKt_31_22.Models.Teacher", b =>
