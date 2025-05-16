@@ -12,6 +12,7 @@
 		public JobTitle JobTitle { get; set; }
 		public int DepartmentId { get; set; }
 		public Department Department { get; set; }
-		public int LoadHours { get; set; }
+		public bool isDeleted { get; set; } = false;
+		public ICollection<Class> Classes { get; set; }
 	}
 }

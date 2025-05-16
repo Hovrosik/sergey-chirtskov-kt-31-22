@@ -17,12 +17,18 @@ namespace ChirtskovSergeyKt_31_22.Controllers
 			_teacherService = teacherService;
 		}
 
-		[HttpPost(Name = "GetTeacher")]
-		public async Task<IActionResult> GetTeachersAsync(TeacherFilter filter, CancellationToken cancellationToken = default)
+		[HttpGet(Name = "GetTeacher")]
+		public async Task<IActionResult> GetTeachersAsync([FromQuery] TeacherFilter filter, CancellationToken cancellationToken = default)
 		{
 			var teacher = await _teacherService.GetTeachersAsync(filter, cancellationToken);
 
-			return Ok(teacher);
+			if (teacher == null || teacher.Length == 0)
+			{
+				return NotFound("Преподавателей с указанным фильтром нет в базе");
+			}
+
+			return Ok(teacher);		
+
 		}
 
 

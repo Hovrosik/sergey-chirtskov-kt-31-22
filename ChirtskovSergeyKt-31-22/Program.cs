@@ -15,7 +15,11 @@ try
     builder.Host.UseNLog();
     // Add services to the container.
 
-    builder.Services.AddControllers();
+    //AddJsonOptions позволяет сериализатору отслеживать уже сериализованные объекты и избегать цикла:
+    builder.Services.AddControllers().AddJsonOptions(options =>
+    {
+        options.JsonSerializerOptions.ReferenceHandler = System.Text.Json.Serialization.ReferenceHandler.Preserve;
+    }); ;
     // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
     builder.Services.AddEndpointsApiExplorer();
     builder.Services.AddSwaggerGen();

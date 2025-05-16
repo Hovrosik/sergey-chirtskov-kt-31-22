@@ -83,7 +83,7 @@ namespace ChirtskovSergeyKt_31_22.Database.Configurations
 
             builder.ToTable(TableName)
                 .HasOne(p => p.Department)
-                .WithMany()
+                .WithMany(p => p.Teachers)
                 .HasForeignKey(p => p.DepartmentId)
                 .HasConstraintName("fk_f_department_id")
                 .OnDelete(DeleteBehavior.Cascade);
@@ -98,6 +98,8 @@ namespace ChirtskovSergeyKt_31_22.Database.Configurations
                 .AutoInclude();
 			builder.Navigation(p => p.JobTitle)
 				.AutoInclude();
-		}
+            builder.Navigation(p => p.Classes)
+                .AutoInclude();
+        }
     }
 }

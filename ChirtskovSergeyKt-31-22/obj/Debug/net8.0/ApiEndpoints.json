@@ -1,16 +1,79 @@
 [
   {
-    "ContainingType": "ChirtskovSergeyKt_31_22.Controllers.TeacherController",
-    "Method": "GetTeachersAsync",
-    "RelativePath": "Teacher",
+    "ContainingType": "ChirtskovSergeyKt_31_22.Controllers.DepartmentController",
+    "Method": "CreateDepartmentByUrlAsync",
+    "RelativePath": "Department/create",
     "HttpMethod": "POST",
     "IsController": true,
     "Order": 0,
     "Parameters": [
       {
-        "Name": "filter",
-        "Type": "ChirtskovSergeyKt_31_22.Filters.TeacherFilters.TeacherFilter",
-        "IsRequired": true
+        "Name": "departmentName",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ChirtskovSergeyKt_31_22.Controllers.DepartmentController",
+    "Method": "DeleteDepartmentAsync",
+    "RelativePath": "Department/delete",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ChirtskovSergeyKt_31_22.Controllers.DepartmentController",
+    "Method": "UpdateDepartmentNameAsync",
+    "RelativePath": "Department/update",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "newName",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ChirtskovSergeyKt_31_22.Controllers.TeacherController",
+    "Method": "GetTeachersAsync",
+    "RelativePath": "Teacher",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "DepartmentName",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "DegreeName",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "JobTitleName",
+        "Type": "System.String",
+        "IsRequired": false
       }
     ],
     "ReturnTypes": [],

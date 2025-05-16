@@ -32,6 +32,6 @@ namespace ChirtskovSergeyKt_31_22.Database.Configurations
 				.HasColumnName("c_department_name")
 				.HasColumnType(ColumnType.String).HasMaxLength(100)
 				.HasComment("Наименование кафедры");
-		}
+        }
 	}
 }

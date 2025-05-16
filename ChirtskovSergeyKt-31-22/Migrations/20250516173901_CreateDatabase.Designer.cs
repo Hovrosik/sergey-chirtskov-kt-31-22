@@ -11,7 +11,7 @@ using Npgsql.EntityFrameworkCore.PostgreSQL.Metadata;
 namespace ChirtskovSergeyKt_31_22.Migrations
 {
     [DbContext(typeof(TeacherDbContext))]
-    [Migration("20250228073725_CreateDatabase")]
+    [Migration("20250516173901_CreateDatabase")]
     partial class CreateDatabase
     {
         /// <inheritdoc />
@@ -23,6 +23,41 @@ namespace ChirtskovSergeyKt_31_22.Migrations
                 .HasAnnotation("Relational:MaxIdentifierLength", 63);
 
             NpgsqlModelBuilderExtensions.UseIdentityByDefaultColumns(modelBuilder);
+
+            modelBuilder.Entity("ChirtskovSergeyKt_31_22.Models.Class", b =>
+                {
+                    b.Property<int>("ClassId")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("integer")
+                        .HasColumnName("class_id")
+                        .HasComment("Идентификатор записи нагрузки");
+
+                    NpgsqlPropertyBuilderExtensions.UseIdentityByDefaultColumn(b.Property<int>("ClassId"));
+
+                    b.Property<int>("DisciplineId")
+                        .HasColumnType("int4")
+                        .HasColumnName("c_class_disciplineid");
+
+                    b.Property<int>("Hours")
+                        .HasColumnType("int4")
+                        .HasColumnName("c_class_hours")
+                        .HasComment("Количество часов");
+
+                    b.Property<int>("TeacherId")
+                        .HasColumnType("int4")
+                        .HasColumnName("c_class_teacherid");
+
+                    b.HasKey("ClassId")
+                        .HasName("pk_cd_class_class_id");
+
+                    b.HasIndex("DisciplineId")
+                        .HasDatabaseName("idx_cd_class_fk_discipline_id");
+
+                    b.HasIndex("TeacherId")
+                        .HasDatabaseName("idx_cd_class_fk_teacher_id");
+
+                    b.ToTable("cd_class", (string)null);
+                });
 
             modelBuilder.Entity("ChirtskovSergeyKt_31_22.Models.Degree", b =>
                 {
@@ -64,13 +99,16 @@ namespace ChirtskovSergeyKt_31_22.Migrations
                         .HasColumnName("c_department_name")
                         .HasComment("Наименование кафедры");
 
+                    b.Property<bool>("isDeleted")
+                        .HasColumnType("boolean");
+
                     b.HasKey("DepartmentId")
                         .HasName("pk_cd_department_department_id");
 
                     b.ToTable("Department");
                 });
 
-            modelBuilder.Entity("ChirtskovSergeyKt_31_22.Models.Disciplines", b =>
+            modelBuilder.Entity("ChirtskovSergeyKt_31_22.Models.Discipline", b =>
                 {
                     b.Property<int>("DisciplinesId")
                         .ValueGeneratedOnAdd()
@@ -90,7 +128,7 @@ namespace ChirtskovSergeyKt_31_22.Migrations
                     b.HasKey("DisciplinesId")
                         .HasName("pk_cd_disciplines_disciplines_id");
 
-                    b.ToTable("Disciplines");
+                    b.ToTable("Discipline");
                 });
 
             modelBuilder.Entity("ChirtskovSergeyKt_31_22.Models.JobTitle", b =>
@@ -152,15 +190,15 @@ namespace ChirtskovSergeyKt_31_22.Migrations
                         .HasColumnName("c_teacher_lastname")
                         .HasComment("Фамилия преподавателя");
 
-                    b.Property<int>("LoadHours")
-                        .HasColumnType("integer");
-
                     b.Property<string>("MiddleName")
                         .IsRequired()
                         .HasMaxLength(100)
                         .HasColumnType("varchar")
                         .HasColumnName("c_teacher_middlename")
                         .HasComment("Отчество преподавателя");
+
+                    b.Property<bool>("isDeleted")
+                        .HasColumnType("boolean");
 
                     b.HasKey("TeacherId")
                         .HasName("pk_cd_teacher_teacher_id");
@@ -174,6 +212,27 @@ namespace ChirtskovSergeyKt_31_22.Migrations
                     b.ToTable("cd_teacher", (string)null);
                 });
 
+            modelBuilder.Entity("ChirtskovSergeyKt_31_22.Models.Class", b =>
+                {
+                    b.HasOne("ChirtskovSergeyKt_31_22.Models.Discipline", "Discipline")
+                        .WithMany("classes")
+                        .HasForeignKey("DisciplineId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired()
+                        .HasConstraintName("fk_f_class_disciplineid");
+
+                    b.HasOne("ChirtskovSergeyKt_31_22.Models.Teacher", "Teacher")
+                        .WithMany("Classes")
+                        .HasForeignKey("TeacherId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired()
+                        .HasConstraintName("fk_f_class_teacherid");
+
+                    b.Navigation("Discipline");
+
+                    b.Navigation("Teacher");
+                });
+
             modelBuilder.Entity("ChirtskovSergeyKt_31_22.Models.Teacher", b =>
                 {
                     b.HasOne("ChirtskovSergeyKt_31_22.Models.Degree", "Degree")
@@ -184,7 +243,7 @@ namespace ChirtskovSergeyKt_31_22.Migrations
                         .HasConstraintName("fk_f_degree_id");
 
                     b.HasOne("ChirtskovSergeyKt_31_22.Models.Department", "Department")
-                        .WithMany()
+                        .WithMany("Teachers")
                         .HasForeignKey("DepartmentId")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired()
@@ -202,6 +261,21 @@ namespace ChirtskovSergeyKt_31_22.Migrations
                     b.Navigation("Department");
 
                     b.Navigation("JobTitle");
+                });
+
+            modelBuilder.Entity("ChirtskovSergeyKt_31_22.Models.Department", b =>
+                {
+                    b.Navigation("Teachers");
+                });
+
+            modelBuilder.Entity("ChirtskovSergeyKt_31_22.Models.Discipline", b =>
+                {
+                    b.Navigation("classes");
+                });
+
+            modelBuilder.Entity("ChirtskovSergeyKt_31_22.Models.Teacher", b =>
+                {
+                    b.Navigation("Classes");
                 });
 #pragma warning restore 612, 618
         }

@@ -30,7 +30,8 @@ namespace ChirtskovSergeyKt_31_22.Migrations
                 {
                     department_id = table.Column<int>(type: "integer", nullable: false, comment: "Идентификатор записи кафедры")
                         .Annotation("Npgsql:ValueGenerationStrategy", NpgsqlValueGenerationStrategy.IdentityByDefaultColumn),
-                    c_department_name = table.Column<string>(type: "varchar", maxLength: 100, nullable: false, comment: "Наименование кафедры")
+                    c_department_name = table.Column<string>(type: "varchar", maxLength: 100, nullable: false, comment: "Наименование кафедры"),
+                    isDeleted = table.Column<bool>(type: "boolean", nullable: false)
                 },
                 constraints: table =>
                 {
@@ -38,7 +39,7 @@ namespace ChirtskovSergeyKt_31_22.Migrations
                 });
 
             migrationBuilder.CreateTable(
-                name: "Disciplines",
+                name: "Discipline",
                 columns: table => new
                 {
                     disciplines_id = table.Column<int>(type: "integer", nullable: false, comment: "Идентификатор записи дисциплины")
@@ -75,7 +76,7 @@ namespace ChirtskovSergeyKt_31_22.Migrations
                     c_teacher_degreeid = table.Column<int>(type: "int4", nullable: false),
                     c_teacher_jobtitleid = table.Column<int>(type: "int4", nullable: false),
                     c_teacher_departmentid = table.Column<int>(type: "int4", nullable: false),
-                    LoadHours = table.Column<int>(type: "integer", nullable: false)
+                    isDeleted = table.Column<bool>(type: "boolean", nullable: false)
                 },
                 constraints: table =>
                 {
@@ -100,6 +101,43 @@ namespace ChirtskovSergeyKt_31_22.Migrations
                         onDelete: ReferentialAction.Cascade);
                 });
 
+            migrationBuilder.CreateTable(
+                name: "cd_class",
+                columns: table => new
+                {
+                    class_id = table.Column<int>(type: "integer", nullable: false, comment: "Идентификатор записи нагрузки")
+                        .Annotation("Npgsql:ValueGenerationStrategy", NpgsqlValueGenerationStrategy.IdentityByDefaultColumn),
+                    c_class_teacherid = table.Column<int>(type: "int4", nullable: false),
+                    c_class_disciplineid = table.Column<int>(type: "int4", nullable: false),
+                    c_class_hours = table.Column<int>(type: "int4", nullable: false, comment: "Количество часов")
+                },
+                constraints: table =>
+                {
+                    table.PrimaryKey("pk_cd_class_class_id", x => x.class_id);
+                    table.ForeignKey(
+                        name: "fk_f_class_disciplineid",
+                        column: x => x.c_class_disciplineid,
+                        principalTable: "Discipline",
+                        principalColumn: "disciplines_id",
+                        onDelete: ReferentialAction.Cascade);
+                    table.ForeignKey(
+                        name: "fk_f_class_teacherid",
+                        column: x => x.c_class_teacherid,
+                        principalTable: "cd_teacher",
+                        principalColumn: "teacher_id",
+                        onDelete: ReferentialAction.Cascade);
+                });
+
+            migrationBuilder.CreateIndex(
+                name: "idx_cd_class_fk_discipline_id",
+                table: "cd_class",
+                column: "c_class_disciplineid");
+
+            migrationBuilder.CreateIndex(
+                name: "idx_cd_class_fk_teacher_id",
+                table: "cd_class",
+                column: "c_class_teacherid");
+
             migrationBuilder.CreateIndex(
                 name: "idx_cd_teacher_fk_f_degree_id",
                 table: "cd_teacher",
@@ -120,10 +158,13 @@ namespace ChirtskovSergeyKt_31_22.Migrations
         protected override void Down(MigrationBuilder migrationBuilder)
         {
             migrationBuilder.DropTable(
-                name: "cd_teacher");
+                name: "cd_class");
 
             migrationBuilder.DropTable(
-                name: "Disciplines");
+                name: "Discipline");
+
+            migrationBuilder.DropTable(
+                name: "cd_teacher");
 
             migrationBuilder.DropTable(
                 name: "Degree");

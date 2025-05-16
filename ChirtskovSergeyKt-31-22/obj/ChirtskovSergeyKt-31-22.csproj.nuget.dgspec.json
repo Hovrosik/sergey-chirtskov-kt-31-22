@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Sergey\\source\\repos\\sergey-chirtskov-kt-31-22\\ChirtskovSergeyKt-31-22\\ChirtskovSergeyKt-31-22.csproj": {}
+    "C:\\Users\\Hovro\\source\\repos\\sergey-chirtskov-kt-31-22\\ChirtskovSergeyKt-31-22\\ChirtskovSergeyKt-31-22.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Sergey\\source\\repos\\sergey-chirtskov-kt-31-22\\ChirtskovSergeyKt-31-22\\ChirtskovSergeyKt-31-22.csproj": {
+    "C:\\Users\\Hovro\\source\\repos\\sergey-chirtskov-kt-31-22\\ChirtskovSergeyKt-31-22\\ChirtskovSergeyKt-31-22.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Sergey\\source\\repos\\sergey-chirtskov-kt-31-22\\ChirtskovSergeyKt-31-22\\ChirtskovSergeyKt-31-22.csproj",
+        "projectUniqueName": "C:\\Users\\Hovro\\source\\repos\\sergey-chirtskov-kt-31-22\\ChirtskovSergeyKt-31-22\\ChirtskovSergeyKt-31-22.csproj",
         "projectName": "ChirtskovSergeyKt-31-22",
-        "projectPath": "C:\\Users\\Sergey\\source\\repos\\sergey-chirtskov-kt-31-22\\ChirtskovSergeyKt-31-22\\ChirtskovSergeyKt-31-22.csproj",
-        "packagesPath": "C:\\Users\\Sergey\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Sergey\\source\\repos\\sergey-chirtskov-kt-31-22\\ChirtskovSergeyKt-31-22\\obj\\",
+        "projectPath": "C:\\Users\\Hovro\\source\\repos\\sergey-chirtskov-kt-31-22\\ChirtskovSergeyKt-31-22\\ChirtskovSergeyKt-31-22.csproj",
+        "packagesPath": "C:\\Users\\Hovro\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Hovro\\source\\repos\\sergey-chirtskov-kt-31-22\\ChirtskovSergeyKt-31-22\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+          "D:\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\Sergey\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Hovro\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -92,7 +92,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.200/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.203/PortableRuntimeIdentifierGraph.json"
         }
       }
     }
