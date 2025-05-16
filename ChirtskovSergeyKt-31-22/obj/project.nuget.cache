@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "+c66z1tJ3T0=",
+  "dgSpecHash": "GdFAtJbEC7c=",
   "success": true,
-  "projectFilePath": "C:\\Users\\Hovro\\source\\repos\\sergey-chirtskov-kt-31-22\\ChirtskovSergeyKt-31-22\\ChirtskovSergeyKt-31-22.csproj",
+  "projectFilePath": "C:\\Users\\Hovro\\Desktop\\laba\\sergey-chirtskov-kt-31-22\\ChirtskovSergeyKt-31-22\\ChirtskovSergeyKt-31-22.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Hovro\\.nuget\\packages\\humanizer.core\\2.14.1\\humanizer.core.2.14.1.nupkg.sha512",
     "C:\\Users\\Hovro\\.nuget\\packages\\microsoft.bcl.asyncinterfaces\\7.0.0\\microsoft.bcl.asyncinterfaces.7.0.0.nupkg.sha512",

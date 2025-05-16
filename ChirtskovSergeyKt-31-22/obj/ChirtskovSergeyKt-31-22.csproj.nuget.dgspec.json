@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Hovro\\source\\repos\\sergey-chirtskov-kt-31-22\\ChirtskovSergeyKt-31-22\\ChirtskovSergeyKt-31-22.csproj": {}
+    "C:\\Users\\Hovro\\Desktop\\laba\\sergey-chirtskov-kt-31-22\\ChirtskovSergeyKt-31-22\\ChirtskovSergeyKt-31-22.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Hovro\\source\\repos\\sergey-chirtskov-kt-31-22\\ChirtskovSergeyKt-31-22\\ChirtskovSergeyKt-31-22.csproj": {
+    "C:\\Users\\Hovro\\Desktop\\laba\\sergey-chirtskov-kt-31-22\\ChirtskovSergeyKt-31-22\\ChirtskovSergeyKt-31-22.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Hovro\\source\\repos\\sergey-chirtskov-kt-31-22\\ChirtskovSergeyKt-31-22\\ChirtskovSergeyKt-31-22.csproj",
+        "projectUniqueName": "C:\\Users\\Hovro\\Desktop\\laba\\sergey-chirtskov-kt-31-22\\ChirtskovSergeyKt-31-22\\ChirtskovSergeyKt-31-22.csproj",
         "projectName": "ChirtskovSergeyKt-31-22",
-        "projectPath": "C:\\Users\\Hovro\\source\\repos\\sergey-chirtskov-kt-31-22\\ChirtskovSergeyKt-31-22\\ChirtskovSergeyKt-31-22.csproj",
+        "projectPath": "C:\\Users\\Hovro\\Desktop\\laba\\sergey-chirtskov-kt-31-22\\ChirtskovSergeyKt-31-22\\ChirtskovSergeyKt-31-22.csproj",
         "packagesPath": "C:\\Users\\Hovro\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Hovro\\source\\repos\\sergey-chirtskov-kt-31-22\\ChirtskovSergeyKt-31-22\\obj\\",
+        "outputPath": "C:\\Users\\Hovro\\Desktop\\laba\\sergey-chirtskov-kt-31-22\\ChirtskovSergeyKt-31-22\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "D:\\Microsoft Visual Studio\\Shared\\NuGetPackages"

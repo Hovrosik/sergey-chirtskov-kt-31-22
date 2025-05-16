@@ -1,4 +1,5 @@
 using ChirtskovSergeyKt_31_22.Database;
+using ChirtskovSergeyKt_31_22.Middlewares;
 using ChirtskovSergeyKt_31_22.Models;
 using Microsoft.EntityFrameworkCore;
 using NLog;
@@ -38,6 +39,8 @@ try
         app.UseSwaggerUI();
     }
 
+    app.UseMiddleware<ExceptionHandlerMiddleware>();
+    
     app.UseAuthorization();
 
     app.MapControllers();
