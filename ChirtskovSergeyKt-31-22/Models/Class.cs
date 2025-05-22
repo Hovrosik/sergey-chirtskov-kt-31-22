@@ -8,5 +8,10 @@
         public int DisciplineId { get; set; }
         public Discipline Discipline { get; set; }
         public int Hours { get; set; }
+        public bool IsValidHours()
+        {
+            return Hours >= 1 && Hours <= 500;
+        }
     }
+
 }

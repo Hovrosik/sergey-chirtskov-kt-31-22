@@ -14,5 +14,40 @@
 		public Department Department { get; set; }
 		public bool isDeleted { get; set; } = false;
 		public ICollection<Class> Classes { get; set; }
-	}
+
+		
+		public string GetFullName()
+		{
+			return $"{LastName} {FirstName} {MiddleName}".Trim();
+		}
+        
+        public int GetTotalHours()
+		{
+			return Classes?.Sum(c => c.Hours) ?? 0;
+		}
+
+        public bool IsTotalHoursWithinLimit(int limit = 1000)
+        {
+            return GetTotalHours() <= limit;
+        }
+
+        public void MarkAsDeleted()
+		{
+			isDeleted = true;
+		}
+
+        
+        public void AddClass(Class newClass)
+        {
+            if (newClass == null)
+                throw new ArgumentNullException(nameof(newClass));
+
+            if (!Classes.Contains(newClass))
+            {
+                Classes.Add(newClass);
+                newClass.Teacher = this;
+                newClass.TeacherId = this.TeacherId;
+            }
+        }
+    }
 }

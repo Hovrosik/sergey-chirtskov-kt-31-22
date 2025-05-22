@@ -3,20 +3,88 @@
   "WorkspaceRootPath": "C:\\Users\\Hovro\\Desktop\\laba\\sergey-chirtskov-kt-31-22\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{B90627EA-507E-41D2-868D-356BCDA3B22A}|ChirtskovSergeyKt-31-22\\ChirtskovSergeyKt-31-22.csproj|c:\\users\\hovro\\desktop\\laba\\sergey-chirtskov-kt-31-22\\chirtskovsergeykt-31-22\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B90627EA-507E-41D2-868D-356BCDA3B22A}|ChirtskovSergeyKt-31-22\\ChirtskovSergeyKt-31-22.csproj|solutionrelative:chirtskovsergeykt-31-22\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{B90627EA-507E-41D2-868D-356BCDA3B22A}|ChirtskovSergeyKt-31-22\\ChirtskovSergeyKt-31-22.csproj|c:\\users\\hovro\\desktop\\laba\\sergey-chirtskov-kt-31-22\\chirtskovsergeykt-31-22\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{B90627EA-507E-41D2-868D-356BCDA3B22A}|ChirtskovSergeyKt-31-22\\ChirtskovSergeyKt-31-22.csproj|solutionrelative:chirtskovsergeykt-31-22\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B90627EA-507E-41D2-868D-356BCDA3B22A}|ChirtskovSergeyKt-31-22\\ChirtskovSergeyKt-31-22.csproj|c:\\users\\hovro\\desktop\\laba\\sergey-chirtskov-kt-31-22\\chirtskovsergeykt-31-22\\middlewares\\exceptionhandlermiddleware.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B90627EA-507E-41D2-868D-356BCDA3B22A}|ChirtskovSergeyKt-31-22\\ChirtskovSergeyKt-31-22.csproj|solutionrelative:chirtskovsergeykt-31-22\\middlewares\\exceptionhandlermiddleware.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{5D805BF9-92C2-4F61-B074-2E52FD87F2C9}|serget-chirtskov-kt-31-22.Tests\\serget-chirtskov-kt-31-22.Tests.csproj|c:\\users\\hovro\\desktop\\laba\\sergey-chirtskov-kt-31-22\\serget-chirtskov-kt-31-22.tests\\departmentintegrationtests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5D805BF9-92C2-4F61-B074-2E52FD87F2C9}|serget-chirtskov-kt-31-22.Tests\\serget-chirtskov-kt-31-22.Tests.csproj|solutionrelative:serget-chirtskov-kt-31-22.tests\\departmentintegrationtests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5D805BF9-92C2-4F61-B074-2E52FD87F2C9}|serget-chirtskov-kt-31-22.Tests\\serget-chirtskov-kt-31-22.Tests.csproj|c:\\users\\hovro\\desktop\\laba\\sergey-chirtskov-kt-31-22\\serget-chirtskov-kt-31-22.tests\\teachertests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5D805BF9-92C2-4F61-B074-2E52FD87F2C9}|serget-chirtskov-kt-31-22.Tests\\serget-chirtskov-kt-31-22.Tests.csproj|solutionrelative:serget-chirtskov-kt-31-22.tests\\teachertests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B90627EA-507E-41D2-868D-356BCDA3B22A}|ChirtskovSergeyKt-31-22\\ChirtskovSergeyKt-31-22.csproj|c:\\users\\hovro\\desktop\\laba\\sergey-chirtskov-kt-31-22\\chirtskovsergeykt-31-22\\interfaces\\teacherinterfaces\\idepartmentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B90627EA-507E-41D2-868D-356BCDA3B22A}|ChirtskovSergeyKt-31-22\\ChirtskovSergeyKt-31-22.csproj|solutionrelative:chirtskovsergeykt-31-22\\interfaces\\teacherinterfaces\\idepartmentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5D805BF9-92C2-4F61-B074-2E52FD87F2C9}|serget-chirtskov-kt-31-22.Tests\\serget-chirtskov-kt-31-22.Tests.csproj|c:\\users\\hovro\\desktop\\laba\\sergey-chirtskov-kt-31-22\\serget-chirtskov-kt-31-22.tests\\teacherintegrationtests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5D805BF9-92C2-4F61-B074-2E52FD87F2C9}|serget-chirtskov-kt-31-22.Tests\\serget-chirtskov-kt-31-22.Tests.csproj|solutionrelative:serget-chirtskov-kt-31-22.tests\\teacherintegrationtests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B90627EA-507E-41D2-868D-356BCDA3B22A}|ChirtskovSergeyKt-31-22\\ChirtskovSergeyKt-31-22.csproj|c:\\users\\hovro\\desktop\\laba\\sergey-chirtskov-kt-31-22\\chirtskovsergeykt-31-22\\models\\department.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B90627EA-507E-41D2-868D-356BCDA3B22A}|ChirtskovSergeyKt-31-22\\ChirtskovSergeyKt-31-22.csproj|solutionrelative:chirtskovsergeykt-31-22\\models\\department.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5D805BF9-92C2-4F61-B074-2E52FD87F2C9}|serget-chirtskov-kt-31-22.Tests\\serget-chirtskov-kt-31-22.Tests.csproj|c:\\users\\hovro\\desktop\\laba\\sergey-chirtskov-kt-31-22\\serget-chirtskov-kt-31-22.tests\\departmenttests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5D805BF9-92C2-4F61-B074-2E52FD87F2C9}|serget-chirtskov-kt-31-22.Tests\\serget-chirtskov-kt-31-22.Tests.csproj|solutionrelative:serget-chirtskov-kt-31-22.tests\\departmenttests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B90627EA-507E-41D2-868D-356BCDA3B22A}|ChirtskovSergeyKt-31-22\\ChirtskovSergeyKt-31-22.csproj|c:\\users\\hovro\\desktop\\laba\\sergey-chirtskov-kt-31-22\\chirtskovsergeykt-31-22\\interfaces\\teacherinterfaces\\iteacherservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B90627EA-507E-41D2-868D-356BCDA3B22A}|ChirtskovSergeyKt-31-22\\ChirtskovSergeyKt-31-22.csproj|solutionrelative:chirtskovsergeykt-31-22\\interfaces\\teacherinterfaces\\iteacherservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5D805BF9-92C2-4F61-B074-2E52FD87F2C9}|serget-chirtskov-kt-31-22.Tests\\serget-chirtskov-kt-31-22.Tests.csproj|c:\\users\\hovro\\desktop\\laba\\sergey-chirtskov-kt-31-22\\serget-chirtskov-kt-31-22.tests\\jobtitletests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5D805BF9-92C2-4F61-B074-2E52FD87F2C9}|serget-chirtskov-kt-31-22.Tests\\serget-chirtskov-kt-31-22.Tests.csproj|solutionrelative:serget-chirtskov-kt-31-22.tests\\jobtitletests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B90627EA-507E-41D2-868D-356BCDA3B22A}|ChirtskovSergeyKt-31-22\\ChirtskovSergeyKt-31-22.csproj|c:\\users\\hovro\\desktop\\laba\\sergey-chirtskov-kt-31-22\\chirtskovsergeykt-31-22\\filters\\teacherfilters\\teacherfilter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B90627EA-507E-41D2-868D-356BCDA3B22A}|ChirtskovSergeyKt-31-22\\ChirtskovSergeyKt-31-22.csproj|solutionrelative:chirtskovsergeykt-31-22\\filters\\teacherfilters\\teacherfilter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B90627EA-507E-41D2-868D-356BCDA3B22A}|ChirtskovSergeyKt-31-22\\ChirtskovSergeyKt-31-22.csproj|c:\\users\\hovro\\desktop\\laba\\sergey-chirtskov-kt-31-22\\chirtskovsergeykt-31-22\\models\\teacher.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B90627EA-507E-41D2-868D-356BCDA3B22A}|ChirtskovSergeyKt-31-22\\ChirtskovSergeyKt-31-22.csproj|solutionrelative:chirtskovsergeykt-31-22\\models\\teacher.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5D805BF9-92C2-4F61-B074-2E52FD87F2C9}|serget-chirtskov-kt-31-22.Tests\\serget-chirtskov-kt-31-22.Tests.csproj|c:\\users\\hovro\\desktop\\laba\\sergey-chirtskov-kt-31-22\\serget-chirtskov-kt-31-22.tests\\classtests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5D805BF9-92C2-4F61-B074-2E52FD87F2C9}|serget-chirtskov-kt-31-22.Tests\\serget-chirtskov-kt-31-22.Tests.csproj|solutionrelative:serget-chirtskov-kt-31-22.tests\\classtests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5D805BF9-92C2-4F61-B074-2E52FD87F2C9}|serget-chirtskov-kt-31-22.Tests\\serget-chirtskov-kt-31-22.Tests.csproj|c:\\users\\hovro\\desktop\\laba\\sergey-chirtskov-kt-31-22\\serget-chirtskov-kt-31-22.tests\\degreetests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5D805BF9-92C2-4F61-B074-2E52FD87F2C9}|serget-chirtskov-kt-31-22.Tests\\serget-chirtskov-kt-31-22.Tests.csproj|solutionrelative:serget-chirtskov-kt-31-22.tests\\degreetests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B90627EA-507E-41D2-868D-356BCDA3B22A}|ChirtskovSergeyKt-31-22\\ChirtskovSergeyKt-31-22.csproj|c:\\users\\hovro\\desktop\\laba\\sergey-chirtskov-kt-31-22\\chirtskovsergeykt-31-22\\models\\class.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B90627EA-507E-41D2-868D-356BCDA3B22A}|ChirtskovSergeyKt-31-22\\ChirtskovSergeyKt-31-22.csproj|solutionrelative:chirtskovsergeykt-31-22\\models\\class.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B90627EA-507E-41D2-868D-356BCDA3B22A}|ChirtskovSergeyKt-31-22\\ChirtskovSergeyKt-31-22.csproj|c:\\users\\hovro\\desktop\\laba\\sergey-chirtskov-kt-31-22\\chirtskovsergeykt-31-22\\models\\degree.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B90627EA-507E-41D2-868D-356BCDA3B22A}|ChirtskovSergeyKt-31-22\\ChirtskovSergeyKt-31-22.csproj|solutionrelative:chirtskovsergeykt-31-22\\models\\degree.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5D805BF9-92C2-4F61-B074-2E52FD87F2C9}|serget-chirtskov-kt-31-22.Tests\\serget-chirtskov-kt-31-22.Tests.csproj|c:\\users\\hovro\\desktop\\laba\\sergey-chirtskov-kt-31-22\\serget-chirtskov-kt-31-22.tests\\disciplinetests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5D805BF9-92C2-4F61-B074-2E52FD87F2C9}|serget-chirtskov-kt-31-22.Tests\\serget-chirtskov-kt-31-22.Tests.csproj|solutionrelative:serget-chirtskov-kt-31-22.tests\\disciplinetests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B90627EA-507E-41D2-868D-356BCDA3B22A}|ChirtskovSergeyKt-31-22\\ChirtskovSergeyKt-31-22.csproj|c:\\users\\hovro\\desktop\\laba\\sergey-chirtskov-kt-31-22\\chirtskovsergeykt-31-22\\models\\jobtitle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B90627EA-507E-41D2-868D-356BCDA3B22A}|ChirtskovSergeyKt-31-22\\ChirtskovSergeyKt-31-22.csproj|solutionrelative:chirtskovsergeykt-31-22\\models\\jobtitle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B90627EA-507E-41D2-868D-356BCDA3B22A}|ChirtskovSergeyKt-31-22\\ChirtskovSergeyKt-31-22.csproj|c:\\users\\hovro\\desktop\\laba\\sergey-chirtskov-kt-31-22\\chirtskovsergeykt-31-22\\models\\discipline.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B90627EA-507E-41D2-868D-356BCDA3B22A}|ChirtskovSergeyKt-31-22\\ChirtskovSergeyKt-31-22.csproj|solutionrelative:chirtskovsergeykt-31-22\\models\\discipline.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5D805BF9-92C2-4F61-B074-2E52FD87F2C9}|serget-chirtskov-kt-31-22.Tests\\serget-chirtskov-kt-31-22.Tests.csproj|c:\\users\\hovro\\desktop\\laba\\sergey-chirtskov-kt-31-22\\serget-chirtskov-kt-31-22.tests\\unittest1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5D805BF9-92C2-4F61-B074-2E52FD87F2C9}|serget-chirtskov-kt-31-22.Tests\\serget-chirtskov-kt-31-22.Tests.csproj|solutionrelative:serget-chirtskov-kt-31-22.tests\\unittest1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{B90627EA-507E-41D2-868D-356BCDA3B22A}|ChirtskovSergeyKt-31-22\\ChirtskovSergeyKt-31-22.csproj|c:\\users\\hovro\\desktop\\laba\\sergey-chirtskov-kt-31-22\\chirtskovsergeykt-31-22\\controllers\\departmentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B90627EA-507E-41D2-868D-356BCDA3B22A}|ChirtskovSergeyKt-31-22\\ChirtskovSergeyKt-31-22.csproj|solutionrelative:chirtskovsergeykt-31-22\\controllers\\departmentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B90627EA-507E-41D2-868D-356BCDA3B22A}|ChirtskovSergeyKt-31-22\\ChirtskovSergeyKt-31-22.csproj|c:\\users\\hovro\\desktop\\laba\\sergey-chirtskov-kt-31-22\\chirtskovsergeykt-31-22\\interfaces\\teacherinterfaces\\idepartmentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B90627EA-507E-41D2-868D-356BCDA3B22A}|ChirtskovSergeyKt-31-22\\ChirtskovSergeyKt-31-22.csproj|solutionrelative:chirtskovsergeykt-31-22\\interfaces\\teacherinterfaces\\idepartmentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{B90627EA-507E-41D2-868D-356BCDA3B22A}|ChirtskovSergeyKt-31-22\\ChirtskovSergeyKt-31-22.csproj|c:\\users\\hovro\\desktop\\laba\\sergey-chirtskov-kt-31-22\\chirtskovsergeykt-31-22\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B90627EA-507E-41D2-868D-356BCDA3B22A}|ChirtskovSergeyKt-31-22\\ChirtskovSergeyKt-31-22.csproj|solutionrelative:chirtskovsergeykt-31-22\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Hovro\\source\\repos\\sergey-chirtskov-kt-31-22\\ChirtskovSergeyKt-31-22\\Migrations\\20250516171014_CreateDatabase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
@@ -24,14 +92,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{B90627EA-507E-41D2-868D-356BCDA3B22A}|ChirtskovSergeyKt-31-22\\ChirtskovSergeyKt-31-22.csproj|c:\\users\\hovro\\desktop\\laba\\sergey-chirtskov-kt-31-22\\chirtskovsergeykt-31-22\\database\\configurations\\departmentconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B90627EA-507E-41D2-868D-356BCDA3B22A}|ChirtskovSergeyKt-31-22\\ChirtskovSergeyKt-31-22.csproj|solutionrelative:chirtskovsergeykt-31-22\\database\\configurations\\departmentconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B90627EA-507E-41D2-868D-356BCDA3B22A}|ChirtskovSergeyKt-31-22\\ChirtskovSergeyKt-31-22.csproj|c:\\users\\hovro\\desktop\\laba\\sergey-chirtskov-kt-31-22\\chirtskovsergeykt-31-22\\models\\department.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B90627EA-507E-41D2-868D-356BCDA3B22A}|ChirtskovSergeyKt-31-22\\ChirtskovSergeyKt-31-22.csproj|solutionrelative:chirtskovsergeykt-31-22\\models\\department.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B90627EA-507E-41D2-868D-356BCDA3B22A}|ChirtskovSergeyKt-31-22\\ChirtskovSergeyKt-31-22.csproj|c:\\users\\hovro\\desktop\\laba\\sergey-chirtskov-kt-31-22\\chirtskovsergeykt-31-22\\interfaces\\teacherinterfaces\\iteacherservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B90627EA-507E-41D2-868D-356BCDA3B22A}|ChirtskovSergeyKt-31-22\\ChirtskovSergeyKt-31-22.csproj|solutionrelative:chirtskovsergeykt-31-22\\interfaces\\teacherinterfaces\\iteacherservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{B90627EA-507E-41D2-868D-356BCDA3B22A}|ChirtskovSergeyKt-31-22\\ChirtskovSergeyKt-31-22.csproj|c:\\users\\hovro\\desktop\\laba\\sergey-chirtskov-kt-31-22\\chirtskovsergeykt-31-22\\controllers\\teachercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -42,20 +102,12 @@
       "RelativeMoniker": "D:0:0:{B90627EA-507E-41D2-868D-356BCDA3B22A}|ChirtskovSergeyKt-31-22\\ChirtskovSergeyKt-31-22.csproj|solutionrelative:chirtskovsergeykt-31-22\\database\\teacherdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B90627EA-507E-41D2-868D-356BCDA3B22A}|ChirtskovSergeyKt-31-22\\ChirtskovSergeyKt-31-22.csproj|c:\\users\\hovro\\desktop\\laba\\sergey-chirtskov-kt-31-22\\chirtskovsergeykt-31-22\\models\\teacher.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B90627EA-507E-41D2-868D-356BCDA3B22A}|ChirtskovSergeyKt-31-22\\ChirtskovSergeyKt-31-22.csproj|solutionrelative:chirtskovsergeykt-31-22\\models\\teacher.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{B90627EA-507E-41D2-868D-356BCDA3B22A}|ChirtskovSergeyKt-31-22\\ChirtskovSergeyKt-31-22.csproj|c:\\users\\hovro\\desktop\\laba\\sergey-chirtskov-kt-31-22\\chirtskovsergeykt-31-22\\database\\configurations\\teacherconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B90627EA-507E-41D2-868D-356BCDA3B22A}|ChirtskovSergeyKt-31-22\\ChirtskovSergeyKt-31-22.csproj|solutionrelative:chirtskovsergeykt-31-22\\database\\configurations\\teacherconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{B90627EA-507E-41D2-868D-356BCDA3B22A}|ChirtskovSergeyKt-31-22\\ChirtskovSergeyKt-31-22.csproj|c:\\users\\hovro\\desktop\\laba\\sergey-chirtskov-kt-31-22\\chirtskovsergeykt-31-22\\database\\configurations\\classconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B90627EA-507E-41D2-868D-356BCDA3B22A}|ChirtskovSergeyKt-31-22\\ChirtskovSergeyKt-31-22.csproj|solutionrelative:chirtskovsergeykt-31-22\\database\\configurations\\classconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B90627EA-507E-41D2-868D-356BCDA3B22A}|ChirtskovSergeyKt-31-22\\ChirtskovSergeyKt-31-22.csproj|c:\\users\\hovro\\desktop\\laba\\sergey-chirtskov-kt-31-22\\chirtskovsergeykt-31-22\\filters\\teacherfilters\\teacherfilter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B90627EA-507E-41D2-868D-356BCDA3B22A}|ChirtskovSergeyKt-31-22\\ChirtskovSergeyKt-31-22.csproj|solutionrelative:chirtskovsergeykt-31-22\\filters\\teacherfilters\\teacherfilter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{B90627EA-507E-41D2-868D-356BCDA3B22A}|ChirtskovSergeyKt-31-22\\ChirtskovSergeyKt-31-22.csproj|c:\\users\\hovro\\desktop\\laba\\sergey-chirtskov-kt-31-22\\chirtskovsergeykt-31-22\\database\\configurations\\jobtitleconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -69,28 +121,8 @@
       "RelativeMoniker": "D:0:0:{B90627EA-507E-41D2-868D-356BCDA3B22A}|ChirtskovSergeyKt-31-22\\ChirtskovSergeyKt-31-22.csproj|solutionrelative:chirtskovsergeykt-31-22\\database\\configurations\\degreeconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B90627EA-507E-41D2-868D-356BCDA3B22A}|ChirtskovSergeyKt-31-22\\ChirtskovSergeyKt-31-22.csproj|c:\\users\\hovro\\desktop\\laba\\sergey-chirtskov-kt-31-22\\chirtskovsergeykt-31-22\\models\\degree.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B90627EA-507E-41D2-868D-356BCDA3B22A}|ChirtskovSergeyKt-31-22\\ChirtskovSergeyKt-31-22.csproj|solutionrelative:chirtskovsergeykt-31-22\\models\\degree.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B90627EA-507E-41D2-868D-356BCDA3B22A}|ChirtskovSergeyKt-31-22\\ChirtskovSergeyKt-31-22.csproj|c:\\users\\hovro\\desktop\\laba\\sergey-chirtskov-kt-31-22\\chirtskovsergeykt-31-22\\models\\class.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B90627EA-507E-41D2-868D-356BCDA3B22A}|ChirtskovSergeyKt-31-22\\ChirtskovSergeyKt-31-22.csproj|solutionrelative:chirtskovsergeykt-31-22\\models\\class.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{B90627EA-507E-41D2-868D-356BCDA3B22A}|ChirtskovSergeyKt-31-22\\ChirtskovSergeyKt-31-22.csproj|c:\\users\\hovro\\desktop\\laba\\sergey-chirtskov-kt-31-22\\chirtskovsergeykt-31-22\\database\\configurations\\disciplinesconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B90627EA-507E-41D2-868D-356BCDA3B22A}|ChirtskovSergeyKt-31-22\\ChirtskovSergeyKt-31-22.csproj|solutionrelative:chirtskovsergeykt-31-22\\database\\configurations\\disciplinesconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B90627EA-507E-41D2-868D-356BCDA3B22A}|ChirtskovSergeyKt-31-22\\ChirtskovSergeyKt-31-22.csproj|c:\\users\\hovro\\desktop\\laba\\sergey-chirtskov-kt-31-22\\chirtskovsergeykt-31-22\\models\\jobtitle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B90627EA-507E-41D2-868D-356BCDA3B22A}|ChirtskovSergeyKt-31-22\\ChirtskovSergeyKt-31-22.csproj|solutionrelative:chirtskovsergeykt-31-22\\models\\jobtitle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B90627EA-507E-41D2-868D-356BCDA3B22A}|ChirtskovSergeyKt-31-22\\ChirtskovSergeyKt-31-22.csproj|c:\\users\\hovro\\desktop\\laba\\sergey-chirtskov-kt-31-22\\chirtskovsergeykt-31-22\\models\\discipline.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B90627EA-507E-41D2-868D-356BCDA3B22A}|ChirtskovSergeyKt-31-22\\ChirtskovSergeyKt-31-22.csproj|solutionrelative:chirtskovsergeykt-31-22\\models\\discipline.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B90627EA-507E-41D2-868D-356BCDA3B22A}|ChirtskovSergeyKt-31-22\\ChirtskovSergeyKt-31-22.csproj|c:\\users\\hovro\\desktop\\laba\\sergey-chirtskov-kt-31-22\\chirtskovsergeykt-31-22\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{B90627EA-507E-41D2-868D-356BCDA3B22A}|ChirtskovSergeyKt-31-22\\ChirtskovSergeyKt-31-22.csproj|solutionrelative:chirtskovsergeykt-31-22\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{B90627EA-507E-41D2-868D-356BCDA3B22A}|ChirtskovSergeyKt-31-22\\ChirtskovSergeyKt-31-22.csproj|c:\\users\\hovro\\desktop\\laba\\sergey-chirtskov-kt-31-22\\chirtskovsergeykt-31-22\\database\\helpers\\columntype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -101,8 +133,8 @@
       "RelativeMoniker": "D:0:0:{B90627EA-507E-41D2-868D-356BCDA3B22A}|ChirtskovSergeyKt-31-22\\ChirtskovSergeyKt-31-22.csproj|solutionrelative:chirtskovsergeykt-31-22\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B90627EA-507E-41D2-868D-356BCDA3B22A}|ChirtskovSergeyKt-31-22\\ChirtskovSergeyKt-31-22.csproj|c:\\users\\hovro\\desktop\\laba\\sergey-chirtskov-kt-31-22\\chirtskovsergeykt-31-22\\migrations\\20250516173901_createdatabase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B90627EA-507E-41D2-868D-356BCDA3B22A}|ChirtskovSergeyKt-31-22\\ChirtskovSergeyKt-31-22.csproj|solutionrelative:chirtskovsergeykt-31-22\\migrations\\20250516173901_createdatabase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{5D805BF9-92C2-4F61-B074-2E52FD87F2C9}|serget-chirtskov-kt-31-22.Tests\\serget-chirtskov-kt-31-22.Tests.csproj|c:\\users\\hovro\\desktop\\laba\\sergey-chirtskov-kt-31-22\\serget-chirtskov-kt-31-22.tests\\testdatagenerator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5D805BF9-92C2-4F61-B074-2E52FD87F2C9}|serget-chirtskov-kt-31-22.Tests\\serget-chirtskov-kt-31-22.Tests.csproj|solutionrelative:serget-chirtskov-kt-31-22.tests\\testdatagenerator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -112,23 +144,27 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 30,
           "Children": [
             {
               "$type": "Bookmark",
               "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
             },
             {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{e1b7d1f8-9b3c-49b1-8f4f-bfc63a88835d}"
+            },
+            {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "ExceptionHandlerMiddleware.cs",
-              "DocumentMoniker": "C:\\Users\\Hovro\\Desktop\\laba\\sergey-chirtskov-kt-31-22\\ChirtskovSergeyKt-31-22\\Middlewares\\ExceptionHandlerMiddleware.cs",
-              "RelativeDocumentMoniker": "ChirtskovSergeyKt-31-22\\Middlewares\\ExceptionHandlerMiddleware.cs",
-              "ToolTip": "C:\\Users\\Hovro\\Desktop\\laba\\sergey-chirtskov-kt-31-22\\ChirtskovSergeyKt-31-22\\Middlewares\\ExceptionHandlerMiddleware.cs",
-              "RelativeToolTip": "ChirtskovSergeyKt-31-22\\Middlewares\\ExceptionHandlerMiddleware.cs",
-              "ViewState": "AgIAAA0AAAAAAAAAAAAQwEcAAAAAAAAAAAAAAA==",
+              "Title": "DepartmentIntegrationTests.cs",
+              "DocumentMoniker": "C:\\Users\\Hovro\\Desktop\\laba\\sergey-chirtskov-kt-31-22\\serget-chirtskov-kt-31-22.Tests\\DepartmentIntegrationTests.cs",
+              "RelativeDocumentMoniker": "serget-chirtskov-kt-31-22.Tests\\DepartmentIntegrationTests.cs",
+              "ToolTip": "C:\\Users\\Hovro\\Desktop\\laba\\sergey-chirtskov-kt-31-22\\serget-chirtskov-kt-31-22.Tests\\DepartmentIntegrationTests.cs",
+              "RelativeToolTip": "serget-chirtskov-kt-31-22.Tests\\DepartmentIntegrationTests.cs",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAkwBEAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-16T19:20:00.739Z",
+              "WhenOpened": "2025-05-19T18:11:06.355Z",
               "EditorCaption": ""
             },
             {
@@ -139,74 +175,167 @@
               "RelativeDocumentMoniker": "ChirtskovSergeyKt-31-22\\Interfaces\\TeacherInterfaces\\IDepartmentService.cs",
               "ToolTip": "C:\\Users\\Hovro\\Desktop\\laba\\sergey-chirtskov-kt-31-22\\ChirtskovSergeyKt-31-22\\Interfaces\\TeacherInterfaces\\IDepartmentService.cs",
               "RelativeToolTip": "ChirtskovSergeyKt-31-22\\Interfaces\\TeacherInterfaces\\IDepartmentService.cs",
-              "ViewState": "AgIAACkAAAAAAAAAAAAIwDUAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAABwAAAAAAAAAAAAowDYAAAA4AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-16T18:05:32.051Z"
+              "WhenOpened": "2025-05-18T12:24:33.546Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 25,
-              "Title": "20250516173901_CreateDatabase.cs",
-              "DocumentMoniker": "C:\\Users\\Hovro\\Desktop\\laba\\sergey-chirtskov-kt-31-22\\ChirtskovSergeyKt-31-22\\Migrations\\20250516173901_CreateDatabase.cs",
-              "RelativeDocumentMoniker": "ChirtskovSergeyKt-31-22\\Migrations\\20250516173901_CreateDatabase.cs",
-              "ToolTip": "C:\\Users\\Hovro\\Desktop\\laba\\sergey-chirtskov-kt-31-22\\ChirtskovSergeyKt-31-22\\Migrations\\20250516173901_CreateDatabase.cs",
-              "RelativeToolTip": "ChirtskovSergeyKt-31-22\\Migrations\\20250516173901_CreateDatabase.cs",
-              "ViewState": "AgIAAIYAAAAAAAAAAAAswK0AAAAAAAAAAAAAAA==",
+              "DocumentIndex": 4,
+              "Title": "TeacherIntegrationTests.cs",
+              "DocumentMoniker": "C:\\Users\\Hovro\\Desktop\\laba\\sergey-chirtskov-kt-31-22\\serget-chirtskov-kt-31-22.Tests\\TeacherIntegrationTests.cs",
+              "RelativeDocumentMoniker": "serget-chirtskov-kt-31-22.Tests\\TeacherIntegrationTests.cs",
+              "ToolTip": "C:\\Users\\Hovro\\Desktop\\laba\\sergey-chirtskov-kt-31-22\\serget-chirtskov-kt-31-22.Tests\\TeacherIntegrationTests.cs",
+              "RelativeToolTip": "serget-chirtskov-kt-31-22.Tests\\TeacherIntegrationTests.cs",
+              "ViewState": "AgIAACcAAAAAAAAAAAAkwB4AAAA5AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-16T17:39:01.786Z"
+              "WhenOpened": "2025-05-18T11:51:14.971Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 11,
+              "Title": "ClassTests.cs",
+              "DocumentMoniker": "C:\\Users\\Hovro\\Desktop\\laba\\sergey-chirtskov-kt-31-22\\serget-chirtskov-kt-31-22.Tests\\ClassTests.cs",
+              "RelativeDocumentMoniker": "serget-chirtskov-kt-31-22.Tests\\ClassTests.cs",
+              "ToolTip": "C:\\Users\\Hovro\\Desktop\\laba\\sergey-chirtskov-kt-31-22\\serget-chirtskov-kt-31-22.Tests\\ClassTests.cs",
+              "RelativeToolTip": "serget-chirtskov-kt-31-22.Tests\\ClassTests.cs",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAAwBsAAAAOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-18T11:44:38.794Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "DegreeTests.cs",
+              "DocumentMoniker": "C:\\Users\\Hovro\\Desktop\\laba\\sergey-chirtskov-kt-31-22\\serget-chirtskov-kt-31-22.Tests\\DegreeTests.cs",
+              "RelativeDocumentMoniker": "serget-chirtskov-kt-31-22.Tests\\DegreeTests.cs",
+              "ToolTip": "C:\\Users\\Hovro\\Desktop\\laba\\sergey-chirtskov-kt-31-22\\serget-chirtskov-kt-31-22.Tests\\DegreeTests.cs",
+              "RelativeToolTip": "serget-chirtskov-kt-31-22.Tests\\DegreeTests.cs",
+              "ViewState": "AgIAABAAAAAAAAAAAAAQwA4AAABDAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-18T11:30:45.176Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "DepartmentTests.cs",
+              "DocumentMoniker": "C:\\Users\\Hovro\\Desktop\\laba\\sergey-chirtskov-kt-31-22\\serget-chirtskov-kt-31-22.Tests\\DepartmentTests.cs",
+              "RelativeDocumentMoniker": "serget-chirtskov-kt-31-22.Tests\\DepartmentTests.cs",
+              "ToolTip": "C:\\Users\\Hovro\\Desktop\\laba\\sergey-chirtskov-kt-31-22\\serget-chirtskov-kt-31-22.Tests\\DepartmentTests.cs",
+              "RelativeToolTip": "serget-chirtskov-kt-31-22.Tests\\DepartmentTests.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-18T11:22:54.573Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "DisciplineTests.cs",
+              "DocumentMoniker": "C:\\Users\\Hovro\\Desktop\\laba\\sergey-chirtskov-kt-31-22\\serget-chirtskov-kt-31-22.Tests\\DisciplineTests.cs",
+              "RelativeDocumentMoniker": "serget-chirtskov-kt-31-22.Tests\\DisciplineTests.cs",
+              "ToolTip": "C:\\Users\\Hovro\\Desktop\\laba\\sergey-chirtskov-kt-31-22\\serget-chirtskov-kt-31-22.Tests\\DisciplineTests.cs",
+              "RelativeToolTip": "serget-chirtskov-kt-31-22.Tests\\DisciplineTests.cs",
+              "ViewState": "AgIAAAQAAAAAAAAAAAAYwA8AAABDAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-18T11:02:47.741Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "JobTitleTests.cs",
+              "DocumentMoniker": "C:\\Users\\Hovro\\Desktop\\laba\\sergey-chirtskov-kt-31-22\\serget-chirtskov-kt-31-22.Tests\\JobTitleTests.cs",
+              "RelativeDocumentMoniker": "serget-chirtskov-kt-31-22.Tests\\JobTitleTests.cs",
+              "ToolTip": "C:\\Users\\Hovro\\Desktop\\laba\\sergey-chirtskov-kt-31-22\\serget-chirtskov-kt-31-22.Tests\\JobTitleTests.cs",
+              "RelativeToolTip": "serget-chirtskov-kt-31-22.Tests\\JobTitleTests.cs",
+              "ViewState": "AgIAAAEAAAAAAAAAAAAYwA0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-18T10:48:39.135Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "TestDataGenerator.cs",
+              "DocumentMoniker": "C:\\Users\\Hovro\\Desktop\\laba\\sergey-chirtskov-kt-31-22\\serget-chirtskov-kt-31-22.Tests\\TestDataGenerator.cs",
+              "RelativeDocumentMoniker": "serget-chirtskov-kt-31-22.Tests\\TestDataGenerator.cs",
+              "ToolTip": "C:\\Users\\Hovro\\Desktop\\laba\\sergey-chirtskov-kt-31-22\\serget-chirtskov-kt-31-22.Tests\\TestDataGenerator.cs",
+              "RelativeToolTip": "serget-chirtskov-kt-31-22.Tests\\TestDataGenerator.cs",
+              "ViewState": "AgIAACkAAAAAAAAAAAArwDYAAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-18T09:06:32.406Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "TeacherTests.cs",
+              "DocumentMoniker": "C:\\Users\\Hovro\\Desktop\\laba\\sergey-chirtskov-kt-31-22\\serget-chirtskov-kt-31-22.Tests\\TeacherTests.cs",
+              "RelativeDocumentMoniker": "serget-chirtskov-kt-31-22.Tests\\TeacherTests.cs",
+              "ToolTip": "C:\\Users\\Hovro\\Desktop\\laba\\sergey-chirtskov-kt-31-22\\serget-chirtskov-kt-31-22.Tests\\TeacherTests.cs",
+              "RelativeToolTip": "serget-chirtskov-kt-31-22.Tests\\TeacherTests.cs",
+              "ViewState": "AgIAACgAAAAAAAAAAAAWwDcAAAAOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-18T08:20:05.165Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "UnitTest1.cs",
+              "DocumentMoniker": "C:\\Users\\Hovro\\Desktop\\laba\\sergey-chirtskov-kt-31-22\\serget-chirtskov-kt-31-22.Tests\\UnitTest1.cs",
+              "RelativeDocumentMoniker": "serget-chirtskov-kt-31-22.Tests\\UnitTest1.cs",
+              "ToolTip": "C:\\Users\\Hovro\\Desktop\\laba\\sergey-chirtskov-kt-31-22\\serget-chirtskov-kt-31-22.Tests\\UnitTest1.cs",
+              "RelativeToolTip": "serget-chirtskov-kt-31-22.Tests\\UnitTest1.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-18T08:18:41.83Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\Hovro\\Desktop\\laba\\sergey-chirtskov-kt-31-22\\ChirtskovSergeyKt-31-22\\Program.cs",
               "RelativeDocumentMoniker": "ChirtskovSergeyKt-31-22\\Program.cs",
               "ToolTip": "C:\\Users\\Hovro\\Desktop\\laba\\sergey-chirtskov-kt-31-22\\ChirtskovSergeyKt-31-22\\Program.cs",
               "RelativeToolTip": "ChirtskovSergeyKt-31-22\\Program.cs",
-              "ViewState": "AgIAACIAAAAAAAAAAAAAACkAAAA0AAAAAAAAAA==",
+              "ViewState": "AgIAAB8AAAAAAAAAAIBJwCkAAAAEAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-16T17:22:03.203Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-16T17:22:03.203Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 28,
               "Title": "20250516171720_CreateDatabase.cs",
               "DocumentMoniker": "C:\\Users\\Hovro\\source\\repos\\sergey-chirtskov-kt-31-22\\ChirtskovSergeyKt-31-22\\Migrations\\20250516171720_CreateDatabase.cs",
               "RelativeDocumentMoniker": "..\\..\\..\\source\\repos\\sergey-chirtskov-kt-31-22\\ChirtskovSergeyKt-31-22\\Migrations\\20250516171720_CreateDatabase.cs",
               "ToolTip": "C:\\Users\\Hovro\\source\\repos\\sergey-chirtskov-kt-31-22\\ChirtskovSergeyKt-31-22\\Migrations\\20250516171720_CreateDatabase.cs",
               "RelativeToolTip": "..\\..\\..\\source\\repos\\sergey-chirtskov-kt-31-22\\ChirtskovSergeyKt-31-22\\Migrations\\20250516171720_CreateDatabase.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-05-16T17:17:20.726Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 21,
               "Title": "20250516171014_CreateDatabase.cs",
               "DocumentMoniker": "C:\\Users\\Hovro\\source\\repos\\sergey-chirtskov-kt-31-22\\ChirtskovSergeyKt-31-22\\Migrations\\20250516171014_CreateDatabase.cs",
               "RelativeDocumentMoniker": "..\\..\\..\\source\\repos\\sergey-chirtskov-kt-31-22\\ChirtskovSergeyKt-31-22\\Migrations\\20250516171014_CreateDatabase.cs",
               "ToolTip": "C:\\Users\\Hovro\\source\\repos\\sergey-chirtskov-kt-31-22\\ChirtskovSergeyKt-31-22\\Migrations\\20250516171014_CreateDatabase.cs",
               "RelativeToolTip": "..\\..\\..\\source\\repos\\sergey-chirtskov-kt-31-22\\ChirtskovSergeyKt-31-22\\Migrations\\20250516171014_CreateDatabase.cs",
-              "ViewState": "AgIAAAkAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-05-16T17:10:14.654Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
+              "DocumentIndex": 13,
               "Title": "Class.cs",
               "DocumentMoniker": "C:\\Users\\Hovro\\Desktop\\laba\\sergey-chirtskov-kt-31-22\\ChirtskovSergeyKt-31-22\\Models\\Class.cs",
               "RelativeDocumentMoniker": "ChirtskovSergeyKt-31-22\\Models\\Class.cs",
               "ToolTip": "C:\\Users\\Hovro\\Desktop\\laba\\sergey-chirtskov-kt-31-22\\ChirtskovSergeyKt-31-22\\Models\\Class.cs",
               "RelativeToolTip": "ChirtskovSergeyKt-31-22\\Models\\Class.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAYAAAAAAAAAA==",
+              "ViewState": "AgIAAAIAAAAAAAAAAAAxwA0AAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-05-16T16:59:26.393Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 26,
               "Title": "ClassConfiguration.cs",
               "DocumentMoniker": "C:\\Users\\Hovro\\Desktop\\laba\\sergey-chirtskov-kt-31-22\\ChirtskovSergeyKt-31-22\\Database\\Configurations\\ClassConfiguration.cs",
               "RelativeDocumentMoniker": "ChirtskovSergeyKt-31-22\\Database\\Configurations\\ClassConfiguration.cs",
@@ -218,31 +347,31 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 5,
               "Title": "Department.cs",
               "DocumentMoniker": "C:\\Users\\Hovro\\Desktop\\laba\\sergey-chirtskov-kt-31-22\\ChirtskovSergeyKt-31-22\\Models\\Department.cs",
               "RelativeDocumentMoniker": "ChirtskovSergeyKt-31-22\\Models\\Department.cs",
               "ToolTip": "C:\\Users\\Hovro\\Desktop\\laba\\sergey-chirtskov-kt-31-22\\ChirtskovSergeyKt-31-22\\Models\\Department.cs",
               "RelativeToolTip": "ChirtskovSergeyKt-31-22\\Models\\Department.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAA0AAAAAAAAAA==",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAAwBAAAAAUAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-05-16T16:29:56.027Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 20,
+              "DocumentIndex": 16,
               "Title": "JobTitle.cs",
               "DocumentMoniker": "C:\\Users\\Hovro\\Desktop\\laba\\sergey-chirtskov-kt-31-22\\ChirtskovSergeyKt-31-22\\Models\\JobTitle.cs",
               "RelativeDocumentMoniker": "ChirtskovSergeyKt-31-22\\Models\\JobTitle.cs",
               "ToolTip": "C:\\Users\\Hovro\\Desktop\\laba\\sergey-chirtskov-kt-31-22\\ChirtskovSergeyKt-31-22\\Models\\JobTitle.cs",
               "RelativeToolTip": "ChirtskovSergeyKt-31-22\\Models\\JobTitle.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-05-16T16:29:44.45Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 29,
               "Title": "DegreeConfiguration.cs",
               "DocumentMoniker": "C:\\Users\\Hovro\\Desktop\\laba\\sergey-chirtskov-kt-31-22\\ChirtskovSergeyKt-31-22\\Database\\Configurations\\DegreeConfiguration.cs",
               "RelativeDocumentMoniker": "ChirtskovSergeyKt-31-22\\Database\\Configurations\\DegreeConfiguration.cs",
@@ -254,19 +383,19 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 19,
+              "DocumentIndex": 30,
               "Title": "DisciplinesConfiguration.cs",
               "DocumentMoniker": "C:\\Users\\Hovro\\Desktop\\laba\\sergey-chirtskov-kt-31-22\\ChirtskovSergeyKt-31-22\\Database\\Configurations\\DisciplinesConfiguration.cs",
               "RelativeDocumentMoniker": "ChirtskovSergeyKt-31-22\\Database\\Configurations\\DisciplinesConfiguration.cs",
               "ToolTip": "C:\\Users\\Hovro\\Desktop\\laba\\sergey-chirtskov-kt-31-22\\ChirtskovSergeyKt-31-22\\Database\\Configurations\\DisciplinesConfiguration.cs",
               "RelativeToolTip": "ChirtskovSergeyKt-31-22\\Database\\Configurations\\DisciplinesConfiguration.cs",
-              "ViewState": "AgIAAAcAAAAAAAAAAAAswBcAAAApAAAAAAAAAA==",
+              "ViewState": "AgIAAAcAAAAAAAAAAAA9wBcAAAApAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-05-16T16:20:37.16Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 27,
               "Title": "JobTitleConfiguration.cs",
               "DocumentMoniker": "C:\\Users\\Hovro\\Desktop\\laba\\sergey-chirtskov-kt-31-22\\ChirtskovSergeyKt-31-22\\Database\\Configurations\\JobTitleConfiguration.cs",
               "RelativeDocumentMoniker": "ChirtskovSergeyKt-31-22\\Database\\Configurations\\JobTitleConfiguration.cs",
@@ -278,16 +407,15 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 19,
               "Title": "DepartmentController.cs",
               "DocumentMoniker": "C:\\Users\\Hovro\\Desktop\\laba\\sergey-chirtskov-kt-31-22\\ChirtskovSergeyKt-31-22\\Controllers\\DepartmentController.cs",
               "RelativeDocumentMoniker": "ChirtskovSergeyKt-31-22\\Controllers\\DepartmentController.cs",
               "ToolTip": "C:\\Users\\Hovro\\Desktop\\laba\\sergey-chirtskov-kt-31-22\\ChirtskovSergeyKt-31-22\\Controllers\\DepartmentController.cs",
               "RelativeToolTip": "ChirtskovSergeyKt-31-22\\Controllers\\DepartmentController.cs",
-              "ViewState": "AgIAADEAAAAAAAAAAAAswDoAAAAeAAAAAAAAAA==",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAAwB0AAAAMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-16T07:23:21.217Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-16T07:23:21.217Z"
             },
             {
               "$type": "Document",
@@ -297,37 +425,37 @@
               "RelativeDocumentMoniker": "ChirtskovSergeyKt-31-22\\Interfaces\\TeacherInterfaces\\ITeacherService.cs",
               "ToolTip": "C:\\Users\\Hovro\\Desktop\\laba\\sergey-chirtskov-kt-31-22\\ChirtskovSergeyKt-31-22\\Interfaces\\TeacherInterfaces\\ITeacherService.cs",
               "RelativeToolTip": "ChirtskovSergeyKt-31-22\\Interfaces\\TeacherInterfaces\\ITeacherService.cs",
-              "ViewState": "AgIAAA8AAAAAAAAAAAAYwBAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAABEAAAAAAAAAAAA3wC0AAAA8AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-05-16T07:05:20.985Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 23,
               "Title": "TeacherController.cs",
               "DocumentMoniker": "C:\\Users\\Hovro\\Desktop\\laba\\sergey-chirtskov-kt-31-22\\ChirtskovSergeyKt-31-22\\Controllers\\TeacherController.cs",
               "RelativeDocumentMoniker": "ChirtskovSergeyKt-31-22\\Controllers\\TeacherController.cs",
               "ToolTip": "C:\\Users\\Hovro\\Desktop\\laba\\sergey-chirtskov-kt-31-22\\ChirtskovSergeyKt-31-22\\Controllers\\TeacherController.cs",
               "RelativeToolTip": "ChirtskovSergeyKt-31-22\\Controllers\\TeacherController.cs",
-              "ViewState": "AgIAAA0AAAAAAAAAAAAgwBUAAAADAAAAAAAAAA==",
+              "ViewState": "AgIAAA0AAAAAAAAAAAA3wBUAAAADAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-05-16T07:03:30.52Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 9,
               "Title": "TeacherFilter.cs",
               "DocumentMoniker": "C:\\Users\\Hovro\\Desktop\\laba\\sergey-chirtskov-kt-31-22\\ChirtskovSergeyKt-31-22\\Filters\\TeacherFilters\\TeacherFilter.cs",
               "RelativeDocumentMoniker": "ChirtskovSergeyKt-31-22\\Filters\\TeacherFilters\\TeacherFilter.cs",
               "ToolTip": "C:\\Users\\Hovro\\Desktop\\laba\\sergey-chirtskov-kt-31-22\\ChirtskovSergeyKt-31-22\\Filters\\TeacherFilters\\TeacherFilter.cs",
               "RelativeToolTip": "ChirtskovSergeyKt-31-22\\Filters\\TeacherFilters\\TeacherFilter.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAQAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAcAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-05-16T06:26:37.305Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 23,
+              "DocumentIndex": 31,
               "Title": "ColumnType.cs",
               "DocumentMoniker": "C:\\Users\\Hovro\\Desktop\\laba\\sergey-chirtskov-kt-31-22\\ChirtskovSergeyKt-31-22\\Database\\Helpers\\ColumnType.cs",
               "RelativeDocumentMoniker": "ChirtskovSergeyKt-31-22\\Database\\Helpers\\ColumnType.cs",
@@ -339,43 +467,44 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 21,
+              "DocumentIndex": 17,
               "Title": "Discipline.cs",
               "DocumentMoniker": "C:\\Users\\Hovro\\Desktop\\laba\\sergey-chirtskov-kt-31-22\\ChirtskovSergeyKt-31-22\\Models\\Discipline.cs",
               "RelativeDocumentMoniker": "ChirtskovSergeyKt-31-22\\Models\\Discipline.cs",
               "ToolTip": "C:\\Users\\Hovro\\Desktop\\laba\\sergey-chirtskov-kt-31-22\\ChirtskovSergeyKt-31-22\\Models\\Discipline.cs",
               "RelativeToolTip": "ChirtskovSergeyKt-31-22\\Models\\Discipline.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAkAAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-04-30T09:17:17.32Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 14,
               "Title": "Degree.cs",
               "DocumentMoniker": "C:\\Users\\Hovro\\Desktop\\laba\\sergey-chirtskov-kt-31-22\\ChirtskovSergeyKt-31-22\\Models\\Degree.cs",
               "RelativeDocumentMoniker": "ChirtskovSergeyKt-31-22\\Models\\Degree.cs",
               "ToolTip": "C:\\Users\\Hovro\\Desktop\\laba\\sergey-chirtskov-kt-31-22\\ChirtskovSergeyKt-31-22\\Models\\Degree.cs",
               "RelativeToolTip": "ChirtskovSergeyKt-31-22\\Models\\Degree.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAABHAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-04-30T09:17:15.066Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 22,
+              "DocumentIndex": 0,
               "Title": "appsettings.Development.json",
               "DocumentMoniker": "C:\\Users\\Hovro\\Desktop\\laba\\sergey-chirtskov-kt-31-22\\ChirtskovSergeyKt-31-22\\appsettings.Development.json",
               "RelativeDocumentMoniker": "ChirtskovSergeyKt-31-22\\appsettings.Development.json",
               "ToolTip": "C:\\Users\\Hovro\\Desktop\\laba\\sergey-chirtskov-kt-31-22\\ChirtskovSergeyKt-31-22\\appsettings.Development.json",
               "RelativeToolTip": "ChirtskovSergeyKt-31-22\\appsettings.Development.json",
-              "ViewState": "AgIAAA8AAAAAAAAAAAAAAB4AAABMAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAiAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-04-30T09:16:11.128Z"
+              "WhenOpened": "2025-04-30T09:16:11.128Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 25,
               "Title": "TeacherConfiguration.cs",
               "DocumentMoniker": "C:\\Users\\Hovro\\Desktop\\laba\\sergey-chirtskov-kt-31-22\\ChirtskovSergeyKt-31-22\\Database\\Configurations\\TeacherConfiguration.cs",
               "RelativeDocumentMoniker": "ChirtskovSergeyKt-31-22\\Database\\Configurations\\TeacherConfiguration.cs",
@@ -387,19 +516,19 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 24,
               "Title": "TeacherDbContext.cs",
               "DocumentMoniker": "C:\\Users\\Hovro\\Desktop\\laba\\sergey-chirtskov-kt-31-22\\ChirtskovSergeyKt-31-22\\Database\\TeacherDbContext.cs",
               "RelativeDocumentMoniker": "ChirtskovSergeyKt-31-22\\Database\\TeacherDbContext.cs",
               "ToolTip": "C:\\Users\\Hovro\\Desktop\\laba\\sergey-chirtskov-kt-31-22\\ChirtskovSergeyKt-31-22\\Database\\TeacherDbContext.cs",
               "RelativeToolTip": "ChirtskovSergeyKt-31-22\\Database\\TeacherDbContext.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAAA4AAAAPAAAAAAAAAA==",
+              "ViewState": "AgIAAAMAAAAAAAAAAIBJwA4AAAAPAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-02-28T16:55:40.695Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 24,
+              "DocumentIndex": 32,
               "Title": "appsettings.json",
               "DocumentMoniker": "C:\\Users\\Hovro\\Desktop\\laba\\sergey-chirtskov-kt-31-22\\ChirtskovSergeyKt-31-22\\appsettings.json",
               "RelativeDocumentMoniker": "ChirtskovSergeyKt-31-22\\appsettings.json",
@@ -411,7 +540,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 22,
               "Title": "DepartmentConfiguration.cs",
               "DocumentMoniker": "C:\\Users\\Hovro\\Desktop\\laba\\sergey-chirtskov-kt-31-22\\ChirtskovSergeyKt-31-22\\Database\\Configurations\\DepartmentConfiguration.cs",
               "RelativeDocumentMoniker": "ChirtskovSergeyKt-31-22\\Database\\Configurations\\DepartmentConfiguration.cs",
@@ -429,7 +558,7 @@
               "RelativeDocumentMoniker": "ChirtskovSergeyKt-31-22\\Models\\Teacher.cs",
               "ToolTip": "C:\\Users\\Hovro\\Desktop\\laba\\sergey-chirtskov-kt-31-22\\ChirtskovSergeyKt-31-22\\Models\\Teacher.cs",
               "RelativeToolTip": "ChirtskovSergeyKt-31-22\\Models\\Teacher.cs",
-              "ViewState": "AgIAAAcAAAAAAAAAAAA5wA4AAAACAAAAAAAAAA==",
+              "ViewState": "AgIAACIAAAAAAAAAAAAAADEAAAANAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-04-11T15:25:09.936Z"
             }

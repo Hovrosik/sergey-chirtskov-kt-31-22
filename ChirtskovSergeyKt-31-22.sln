@@ -5,6 +5,8 @@ VisualStudioVersion = 17.11.35312.102
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ChirtskovSergeyKt-31-22", "ChirtskovSergeyKt-31-22\ChirtskovSergeyKt-31-22.csproj", "{B90627EA-507E-41D2-868D-356BCDA3B22A}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "serget-chirtskov-kt-31-22.Tests", "serget-chirtskov-kt-31-22.Tests\serget-chirtskov-kt-31-22.Tests.csproj", "{5D805BF9-92C2-4F61-B074-2E52FD87F2C9}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{B90627EA-507E-41D2-868D-356BCDA3B22A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B90627EA-507E-41D2-868D-356BCDA3B22A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B90627EA-507E-41D2-868D-356BCDA3B22A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5D805BF9-92C2-4F61-B074-2E52FD87F2C9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5D805BF9-92C2-4F61-B074-2E52FD87F2C9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5D805BF9-92C2-4F61-B074-2E52FD87F2C9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5D805BF9-92C2-4F61-B074-2E52FD87F2C9}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
