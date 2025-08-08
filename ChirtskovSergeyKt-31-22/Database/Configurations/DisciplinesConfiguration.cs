@@ -5,11 +5,11 @@ using Microsoft.EntityFrameworkCore.Metadata.Builders;
 
 namespace ChirtskovSergeyKt_31_22.Database.Configurations
 {
-	public class DisciplinesConfiguration : IEntityTypeConfiguration<Disciplines>
+	public class DisciplinesConfiguration : IEntityTypeConfiguration<Discipline>
 	{
 		// Название таблицы, которое будет отображаться в БД
 		private const string TableName = "cd_disciplines";
-		public void Configure(EntityTypeBuilder<Disciplines> builder)
+		public void Configure(EntityTypeBuilder<Discipline> builder)
 		{
 			// Задаем первичный ключ
 			builder

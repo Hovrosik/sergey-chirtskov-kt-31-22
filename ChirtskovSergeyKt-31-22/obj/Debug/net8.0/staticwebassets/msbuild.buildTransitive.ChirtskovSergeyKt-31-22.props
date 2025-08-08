@@ -1,3 +1,0 @@
-﻿<Project>
-  <Import Project="..\buildMultiTargeting\ChirtskovSergeyKt-31-22.props" />
-</Project>

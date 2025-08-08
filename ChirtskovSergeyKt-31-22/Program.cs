@@ -1,8 +1,10 @@
 using ChirtskovSergeyKt_31_22.Database;
+using ChirtskovSergeyKt_31_22.Middlewares;
 using ChirtskovSergeyKt_31_22.Models;
 using Microsoft.EntityFrameworkCore;
 using NLog;
 using NLog.Web;
+using static ChirtskovSergeyKt_31_22.ServiceExtensions.ServiceExtensions;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -14,13 +16,19 @@ try
     builder.Host.UseNLog();
     // Add services to the container.
 
-    builder.Services.AddControllers();
+    //AddJsonOptions позволяет сериализатору отслеживать уже сериализованные объекты и избегать цикла:
+    builder.Services.AddControllers().AddJsonOptions(options =>
+    {
+        options.JsonSerializerOptions.ReferenceHandler = System.Text.Json.Serialization.ReferenceHandler.Preserve;
+    }); ;
     // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
     builder.Services.AddEndpointsApiExplorer();
     builder.Services.AddSwaggerGen();
 
     builder.Services.AddDbContext<TeacherDbContext>(options =>
         options.UseNpgsql(builder.Configuration.GetConnectionString("DefaultConnection")));
+
+    builder.Services.AddServices();
 
     var app = builder.Build();
 
@@ -31,6 +39,8 @@ try
         app.UseSwaggerUI();
     }
 
+    app.UseMiddleware<ExceptionHandlerMiddleware>();
+    
     app.UseAuthorization();
 
     app.MapControllers();
